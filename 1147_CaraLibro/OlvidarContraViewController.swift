@@ -15,7 +15,7 @@ class OlvidarContraViewController: UIViewController {
         
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("LoginViewController - viewDidLoad")
+        print("OlvidarContraViewController - viewDidLoad")
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -25,7 +25,7 @@ class OlvidarContraViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        print("LoginViewController - viewDidAppear")
+        print("OlvidarContraViewController - viewDidAppear")
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -35,7 +35,7 @@ class OlvidarContraViewController: UIViewController {
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
-        print("LoginViewController - viewDidDisappear")
+        print("OlvidarContraViewController - viewDidDisappear")
     }
     
     private func registerKeyboardNotifications()
