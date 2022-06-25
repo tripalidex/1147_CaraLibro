@@ -114,17 +114,6 @@
                                     <constraint firstItem="TKf-wr-gzs" firstAttribute="leading" secondItem="ygs-BH-oDa" secondAttribute="leading" constant="15" id="zQE-uD-4th"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" tag="1" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ae-Ub-n5R">
-                                <rect key="frame" x="20" y="742" width="374" height="35"/>
-                                <color key="backgroundColor" systemColor="systemBlueColor"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <color key="tintColor" systemColor="linkColor"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="299"/>
-                                <state key="normal" title="Iniciar Sesión">
-                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
-                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tjv-xO-jwE">
                                 <rect key="frame" x="20" y="787" width="374" height="35"/>
                                 <color key="backgroundColor" systemColor="linkColor"/>
@@ -153,13 +142,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="apx-U1-HhH" secondAttribute="trailing" constant="60" id="HE9-Dh-59H"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ygs-BH-oDa" secondAttribute="trailing" constant="20" id="SFS-wx-sA1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tjv-xO-jwE" secondAttribute="bottom" constant="40" id="WOx-j5-1KK"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1ae-Ub-n5R" secondAttribute="trailing" constant="20" id="X2M-Vz-gUf"/>
                             <constraint firstItem="tjv-xO-jwE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="b0T-JH-5Jz"/>
                             <constraint firstItem="ygs-BH-oDa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="bLk-hF-UjI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ygs-BH-oDa" secondAttribute="trailing" constant="20" id="bTX-q2-3I8"/>
                             <constraint firstItem="ygs-BH-oDa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="i7t-Og-BOu"/>
-                            <constraint firstItem="1ae-Ub-n5R" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jwl-Jf-VEr"/>
-                            <constraint firstItem="tjv-xO-jwE" firstAttribute="top" secondItem="1ae-Ub-n5R" secondAttribute="bottom" constant="10" id="mGX-L7-9d4"/>
                             <constraint firstItem="apx-U1-HhH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="vpM-mi-6D0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tjv-xO-jwE" secondAttribute="trailing" constant="20" id="zBo-CY-Bu9"/>
                         </constraints>
@@ -477,12 +463,6 @@
         </systemColor>
         <systemColor name="secondarySystemGroupedBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
